@@ -190,6 +190,7 @@ section .title::after {
     background-size: cover;
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
+    background-color: rgb(248, 234, 194);
 }
 
 .home .max-width {
@@ -753,12 +754,12 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: rgb(255, 255, 255);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
     }
-
+    
     .navbar .menu.active {
         left: 0;
     }
